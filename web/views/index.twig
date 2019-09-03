@@ -1,0 +1,73 @@
+{% extends "layout.html" %}
+
+{% block content %}
+<div class="site-wrapper">
+  <div class="site-wrapper-inner">
+    <div class="cover-container">
+      <div class="masthead clearfix">
+        <div class="inner">
+          <h3 class="masthead-brand">mh4nx7net | web2ls</h3>
+          <nav class="nav nav-masthead">
+            <a href="https://www.facebook.com/www.devillian.co.id" class="nav-link nav-social"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://twitter.com/mh4nx7net" class="nav-link nav-social"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.instagram.com/rsandi18/" class="nav-link nav-social"><i class="fab fa-instagram"></i></a>
+            <a href="https://github.com/mh4nx7net" class="nav-link nav-social"><i class="fab fa-github"></i></a>
+          </nav>
+        </div>
+      </div><br>
+      <div class="inner cover">
+        <h1 class="cover-heading">future gundulmu</h1>
+        <p class="lead cover-copy">simple portal</p>
+          <p class="lead"><button type="button" class="btn btn-lg btn-default btn-notify" data-toggle="modal"
+              data-target="#subscribeModal">check app</button></p>
+      </div>
+      <div class="mastfoot">
+        <div class="container">
+          <div class="alert alert-info text-center" role="alert">
+            experiment site. for fu*king tools. hope u enjoy it! make with f*cking lovu - wth u callit
+          </div>
+        </div>
+      </div>
+
+      <div class="modal fade" id="subscribeModal" tabindex="-1" role="dialog" aria-labelledby="subscribeModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="subscribeModalLabel">Ketersediaan alat</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <div class="text-center">
+                <a href="app/samehadaku/index.php">
+                  <button type="button" class="btn btn-default">samehadaku downloader</button>
+                  <button type="button" class="btn btn-default">FreePBX Server | terdampar.space</button>
+                </a>
+              </div>
+              <br>
+              <br>
+              <hr>
+              <form>
+                <div class="form-group">
+                  <label for="recipient-name" class="form-control-label">dapatkan pemberitahuan dari kami</label>
+                  <input type="text" class="form-control" id="recipient-name" placeholder="devillian@facebook.co.id">
+                </div>
+              </form>
+            </div>
+            <div class="modal-footer">
+              <a href="https://github.com/mh4nx7net/web2ls">
+                <button type="button" class="btn btn-default">Ikuti</button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js"></script>
+  <script src="/js/main.js"></script>
+  {% endblock %}
