@@ -2,3 +2,11 @@ RewriteEngine On
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteRule ^ index.php [QSA,L]
 Redirect /app/p/speedtest/index.php /speedtest
+Redirect /app/coba/test.txt /coba
+
+<Directory "/">
+    Options +Indexes +FollowSymLinks +MultiViews
+    AllowOverride All
+    require all granted
+</Directory>
+
