@@ -2,6 +2,9 @@
  * Tailwind CSS imports
  * View the full documentation at https://tailwindcss.com
  */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -19,6 +22,7 @@ html {
   -o-tab-size: 4;
   tab-size: 4;
   font-family:
+    "Poppins",
     ui-sans-serif,
     system-ui,
     -apple-system,
