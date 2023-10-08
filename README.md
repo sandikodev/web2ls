@@ -1,65 +1,65 @@
-# Qwik City App ⚡️
+# WEB2LS - Many Tools You CAN Get!
+## Now arise with Qwik App! powered by Builder.IO
 
-- [Qwik Docs](https://qwik.builder.io/)
-- [Discord](https://qwik.builder.io/chat)
-- [Qwik GitHub](https://github.com/BuilderIO/qwik)
-- [@QwikDev](https://twitter.com/QwikDev)
-- [Vite](https://vitejs.dev/)
 
----
+## TO-DO
+furthermore, always check `Project Board` !
 
-## Project Structure
 
-This project is using Qwik with [QwikCity](https://qwik.builder.io/qwikcity/overview/). QwikCity is just an extra set of tools on top of Qwik to make it easier to build a full site, including directory-based routing, layouts, and more.
+## Contribution ?
+feel free to contribute your idea here! within learn qwik-app togerher!
 
-Inside your project, you'll see the following directory structure:
+## How to Contribute
+1. fork this project
+2. create pages for your own tools on `src/route` folder
+3. push your project
+4. create pull-request with several `key-val paired` requirement
 
-```
-├── public/
-│   └── ...
-└── src/
-    ├── components/
-    │   └── ...
-    └── routes/
-        └── ...
-```
 
-- `src/routes`: Provides the directory-based routing, which can include a hierarchy of `layout.tsx` layout files, and an `index.tsx` file as the page. Additionally, `index.ts` files are endpoints. Please see the [routing docs](https://qwik.builder.io/qwikcity/routing/overview/) for more info.
+for details, please check on `wiki tabs`
 
-- `src/components`: Recommended directory for components.
 
-- `public`: Any static assets, like images, can be placed in the public directory. Please see the [Vite public directory](https://vitejs.dev/guide/assets.html#the-public-directory) for more info.
+**tldr**\ if you need deploy .env key-val please let me know via our secured form below. `nb: sorry, the form still work in project`
 
-## Add Integrations and deployment
+## ROADMAP
+1. build and deployed on Heroku (then)\
+   a. tech stack: 
+   ```
+   lang: PHP,
+   services: {
+      ssr: "Silex"
+   }
+   ```
+   b. tools: 
+   ```
+   [
+      samehadaku downloader,
+      snmptn generator,
+      and more
+   ]
+   ```
+2. re-build and deployed (now: work in progress)\
+   a. tech stack: 
+   ```
+   lang: JS,
+   services: {
+      csr: "QwikJS",
+      ssr: "QwikCity"
+   }
+   ```
+   b. tools:
+   ```
+   [
+      countdown timers,
+      so on...
+   ]
+   ```
+3. responsive mobile friendly (soon)
 
-Use the `bun qwik add` command to add additional integrations. Some examples of integrations includes: Cloudflare, Netlify or Express Server, and the [Static Site Generator (SSG)](https://qwik.builder.io/qwikcity/guides/static-site-generation/).
 
-```shell
-bun qwik add # or `bun qwik add`
-```
-
-## Development
-
-Development mode uses [Vite's development server](https://vitejs.dev/). The `dev` command will server-side render (SSR) the output during development.
-
-```shell
-npm start # or `bun start`
-```
-
-> Note: during dev mode, Vite may request a significant number of `.js` files. This does not represent a Qwik production build.
+   `we'll be add your tools/idea there, after you done with your PR, Have a Great Day! `
+   
 
 ## Preview
-
-The preview command will create a production build of the client modules, a production build of `src/entry.preview.tsx`, and run a local server. The preview server is only for convenience to preview a production build locally and should not be used as a production server.
-
-```shell
-bun preview # or `bun preview`
-```
-
-## Production
-
-The production build will generate client and server modules by running both client and server build commands. The build command will use Typescript to run a type check on the source code.
-
-```shell
-bun build # or `bun build`
-```
+![IMG-1](/preview/prev-1.png "Screen Shot 2019-03-22 at 07.05.59")
+![IMG-2](/preview/prev-2.png "Screen Shot 2019-03-22 at 07.07.29")
